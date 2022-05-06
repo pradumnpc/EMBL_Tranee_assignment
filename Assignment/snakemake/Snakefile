@@ -1,6 +1,6 @@
-rule pythonscript:
+rule MA_plot:
     script:
         "C:\Python_files\Snakemake_practice\Assignment\src\MA.py"
-rule pythonscript:
+rule Volcano_plot:
     script:
         "C:\Python_files\Snakemake_practice\Assignment\src\Volcano.py"
