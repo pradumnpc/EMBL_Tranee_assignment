@@ -1,0 +1,5 @@
+NotImplementedError in line 2 of /mnt/c/Python_files/Snakemake_practice/Assignment/snakemake/Snakefile:
+Unable to handle scheme 'c', expected one of ('', 'file', 'gs', 'hdfs', 'http', 'https', 's3', 's3a', 's3n', 's3u', 'scp', 'sftp', 'ssh', 'viewfs', 'webhdfs'). Extra dependencies required by 'c' may be missing. See <https://github.com/RaRe-Technologies/smart_open/blob/master/README.rst> for details.
+  File "/mnt/c/Python_files/Snakemake_practice/Assignment/snakemake/Snakefile", line 2, in <module>
+  File "/home/pchavan/anaconda3/envs/snakemake/lib/python3.10/site-packages/smart_open/smart_open_lib.py", line 81, in parse_uri
+  File "/home/pchavan/anaconda3/envs/snakemake/lib/python3.10/site-packages/smart_open/transport.py", line 93, in get_transport

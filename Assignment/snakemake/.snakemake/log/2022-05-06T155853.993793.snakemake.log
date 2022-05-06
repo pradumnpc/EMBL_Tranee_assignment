@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+pythonscript        1              1              1
+total               1              1              1
+
+Select jobs to execute...
+
+[Fri May  6 15:58:54 2022]
+rule pythonscript:
+    jobid: 0
+    resources: tmpdir=C:\Users\L14\AppData\Local\Temp
+
+[Fri May  6 15:58:56 2022]
+Error in rule pythonscript:
+    jobid: 0
+
+RuleException:
+CalledProcessError in line 3 of C:\Python_files\Snakemake_practice\Assignment\snakemake\Snakefile:
+Command 'C:/Users/L14/anaconda3/envs/snakemake/python.exe "C:\Python_files\Snakemake_practice\Assignment\snakemake\.snakemake\scripts\tmpyf55e74s.MA.py"' returned non-zero exit status 1.
+  File "C:\Python_files\Snakemake_practice\Assignment\snakemake\Snakefile", line 3, in __rule_pythonscript
+  File "C:\Users\L14\anaconda3\envs\snakemake\lib\concurrent\futures\thread.py", line 58, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake\log\2022-05-06T155853.993793.snakemake.log
