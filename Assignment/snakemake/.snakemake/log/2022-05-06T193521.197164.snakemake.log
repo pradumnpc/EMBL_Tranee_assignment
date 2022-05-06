@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+MA_plot        1              1              1
+total          1              1              1
+
+Select jobs to execute...
+
+[Fri May  6 19:35:21 2022]
+rule MA_plot:
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri May  6 19:35:21 2022]
+Error in rule MA_plot:
+    jobid: 0
+
+RuleException:
+WorkflowError in line 3 of /mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/snakemake/Snakefile:
+Failed to open source file /mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/snakemake/src/MA.py
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/snakemake/src/MA.py'
+  File "/mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/snakemake/Snakefile", line 3, in __rule_MA_plot
+  File "/home/pchavan/anaconda3/envs/snakemake/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-06T193521.197164.snakemake.log

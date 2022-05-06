@@ -1,6 +1,6 @@
 rule MA_plot:
     script:
-        "C:\Python_files\Snakemake_practice\Assignment\src\MA.py"
+        "/mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/src/MA.py"
 rule Volcano_plot:
     script:
-        "C:\Python_files\Snakemake_practice\Assignment\src\Volcano.py"
+        "/mnt/c/Python_files/EMBL_Tranee_assignment/Assignment/src/Volcano.py"
