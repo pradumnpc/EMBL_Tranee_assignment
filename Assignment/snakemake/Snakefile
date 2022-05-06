@@ -1,4 +1,6 @@
 rule pythonscript:
     script:
         "C:\Python_files\Snakemake_practice\Assignment\src\MA.py",
-        "C:\Python_files\Snakemake_practice\Assignment\src\Volcano.py"
+rule pythonscript:
+    script:
+        "C:\Python_files\Snakemake_practice\Assignment\src\Volcano.py",
